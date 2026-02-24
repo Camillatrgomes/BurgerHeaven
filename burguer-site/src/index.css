@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+:root {
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #1E1E1E;
+  margin: 30px;
+}
+
+.bowlby-one-regular {
+  font-family: "Bowlby One", sans-serif;
+}
