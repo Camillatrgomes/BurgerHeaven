@@ -1,7 +1,7 @@
 
 import img from '../assets/img3.png';
 import img2 from '../assets/img4.png'; 
-import ScrollVelocity from "../Components/ScrollVelocity.jsx";
+import { ScrollVelocity } from "../Components/ScrollVelocity.jsx";
 
 function SectionFinal() {
     return (

@@ -6,23 +6,19 @@ import ClickSpark from './Components/ClickSpark';
 
 function App() {
   return (
-    <div>
-<ClickSpark
-  sparkColor='#D1EF53'
-  sparkSize={12}
-  sparkRadius={15}
-  sparkCount={6}
-  duration={600}
->
-   <Home/>
+    <ClickSpark
+      sparkColor='#D1EF53'
+      sparkSize={12}
+      sparkRadius={15}
+      sparkCount={6}
+      duration={600}
+    >
+      <Home/>
       <Cards/>
       <SectionFinal/>
       <Footer/>
-</ClickSpark>
-
-    
-     </div>  
-     )
+    </ClickSpark>
+  );
 }
 
 export default App
